@@ -17,6 +17,19 @@ class Algorithm {
       switch(option){
         case 1:
         //Aqui va tu codigo Pao
+                        Scanner insertar = new Scanner(System.in);
+              int numero;
+              
+               System.out.println("Inserte Número: ");
+               numero= insertar.nextInt();
+              
+               if(numero % 2 ==0){ // Define si es numero par o impar sacando el residuo
+               System.out.println(numero + "Es un número Par");
+               }else{
+               System.out.println(numero+ "NO es número Par");
+               } 
+               
+               System.out.println("\n");
           break;
         case 2:
         //Su codigo senor Richard
